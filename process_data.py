@@ -9,12 +9,7 @@ Before you run the script, please follow the steps below before starting.
         each image. Even though this script contains data cleaning method, it does not cover
         every edge case.
 
-        ***Edge case***
-        When reading from a csv file, it may read a bunch of empty lines and cause error.
-        If this ever happens to you, please scroll down to the bottom of csv file and delete
-        several dozen of empty rows. I am currently working on this issue -- Koshin
-
-    3. If you have added or removed classifier/feature, you need to modify the code.
+    3. If you have added or removed classifier/feature, you may need to modify the code.
 
     4. If the api error occurs in prediction, there is a chance that your image is larger than 4 MB.
         Prediction images must be smaller than 4 MB, so please double-check your image size.
@@ -30,13 +25,10 @@ import time as sleep_timer
 from azure.cognitiveservices.vision.customvision.prediction import prediction_endpoint
 from azure.cognitiveservices.vision.customvision.prediction.prediction_endpoint import models
 
-'''
-Global Constants: project related information -- obtain them from custom vision
-'''
-#project_id = "ac40ffed-201d-4040-b25d-a543801f7634"
-#training_key = "b1beee07349649138fa1512fc196593a"
-#prediction_key = "15ada6da93e7422e99c4f15f4c76ec96"
 
+
+
+### Global Constants: project related information -- obtain them from custom vision
 project_id = "8d05ada4-02ee-42f6-9784-9c6aa3457f9d"
 training_key = "2fb2e54d14fc4c4e8fb264338277c250"
 trainer = training_api.TrainingApi(training_key)
@@ -46,12 +38,10 @@ prediction_key = "8df190e421c741a8b79ca00b56a3f23e"
 base_image_url = "https://oltivainsurance8754.blob.core.windows.net/car-dataset/"
 
 # set the local csv file location here
-local_csv_location = "/Users/kokonu/Google Drive/avanade_ai/CarDamageLabels.csv"
+local_csv_location = r"/Users/Koshin/Google Drive/avanade_ai/CarDamageLabels.csv"
 
 
-'''
-Global Constants: classifier answer selection options
-'''
+### Global Constants: classifier answer selection options
 CONST_YES = 'yes'
 CONST_NO = 'no'
 CONST_URBAN = 'urban'
@@ -84,6 +74,8 @@ def csv_to_dataFrame():
     return df
 
 
+# Cleans up data by making sure there is no empty space and character casing has been all up-to-date
+# @param df: takes in a data frame and cleans it up
 def df_data_cleaning(df):
 
     # drop all NaN values if exists
@@ -138,14 +130,14 @@ def df_data_cleaning(df):
     return df
 
 
-#shuffles dataFrame
+# shuffles dataFrame
 def df_shuffle(car_df):
 
     car_df = sku.shuffle(car_df)
     return car_df
 
 
-#split dataset to 80% training and 20% training dataset
+# splits dataset to 80% training and 20% training dataset
 def df_split(car_df):
 
     training_image_count = int(len(car_df)*0.8)
@@ -156,7 +148,7 @@ def df_split(car_df):
     return training_car_df, testing_car_df
 
 
-#upload all the images to Custom Vision to create multi classification model
+# upload all the images to Custom Vision to create multi classification model
 def process_training_car_df(training_car_df):
 
 
@@ -177,7 +169,7 @@ def process_training_car_df(training_car_df):
     # Divide images to appropriate tags <-- create df for each tag ***strategize this part***
     classifier_list = list(training_car_df.columns.values)[3:16] # This gives us all the feature names
 
-    #use this for loop to simply create tags
+    #use this for loop to simply create tags and store them in img_dict
     for classifier in classifier_list:
 
         if classifier == 'Location':
@@ -204,13 +196,7 @@ def process_training_car_df(training_car_df):
             img_dict = yes_no_classifier(classifier, training_car_df, img_dict, tag_list)
 
 
-    # debug purpose
-    # for img_name in img_name_list:
-    #     image_url = base_image_url + img_name
-    #     tag_list = img_dict[img_name]
-    #     print(f'uploading {image_url} \t Tags: {tag_list}')
-
-    print(f"Adding images...")
+    print("\nAdding images...")
     # this is for YesDamage
     for img_name in img_name_list:
         image_url = base_image_url + img_name
@@ -219,9 +205,15 @@ def process_training_car_df(training_car_df):
         trainer.create_images_from_urls(project_id,
                                         [ImageUrlCreateEntry(url=image_url, tag_ids=tag_list)])
 
-        print(f'uploading {image_url} \t Tags: {tag_list}')
+        # print('uploading {} \t Tags: {}' .format(image_url, tag_list))
+        print('uploading {} '.format(image_url))
 
-
+'''
+this function append the appropriate tags to classifiers that only have yes/no answers
+@param classifier - indicates which classifier this is
+@param training_car_df - training_car data frame
+@param tag_list - all tags obtained from trainer object
+'''
 def yes_no_classifier(classifier, training_car_df, img_dict, tag_list):
 
     selection = 'yes'
@@ -432,6 +424,7 @@ def five_answer_classifier(classifier, answer_option_one, answer_option_two, ans
     return img_dict
 
 
+# Conducts training process upon uploading all the images with appropriate tags
 def training():
 
     print("Training...")
@@ -449,6 +442,7 @@ def training():
     return iteration
 
 
+# all prediction related work is done in this function
 def prediction(testing_car_df, iteration):
 
     # Now there is a trained endpoint that can be used to make a prediction
@@ -506,30 +500,20 @@ def prediction(testing_car_df, iteration):
         result_df = result_df.append(one_row_df, ignore_index=True)
         # print(result_df)
 
-    print('\nprediction_result.csv is being created...')
-    while True:
-        try:
-            # write the end-result to a csv file
-            result_df.to_csv('prediction_result.csv', sep=',', index=False)
-            print('Successfully Written prediction_result dataframe to a CSV file!')
-            break
+    csv_output(result_df, 'prediction_result.csv')
 
-        except PermissionError:
-            print("Encountered Permission Error: please take an appropriate action!")
-            print("\nEnter 'yes' to proceed or enter anything else to exit the program")
-            answer = input()
-            answer = answer.lower()
 
-            if answer[0] != 'y':
-                print('Ok, goodbye')
-                exit()
+# creates a output csv file based on an input dataframe
+# @param df - A csv file gets created based on this dataFrame
+# @param csv_output_name - Simply, a name of this csv file
+def csv_output(df, csv_output_name):
 
-    print('\ntesting_car_df.csv is bring created...')
+    print('\n{}.csv file is being created...'.format(csv_output_name))
     while True:
         try:
             # compare the reult_df with testing_car_df
-            testing_car_df.to_csv('testing_car.csv', sep=',', index=False)
-            print('Successfully Written testing_car dataframe to a CSV file!')
+            df.to_csv(csv_output_name, sep=',', index=False)
+            print('Successfully created {} file!'.format(csv_output_name))
             break
 
         except PermissionError:
@@ -543,6 +527,7 @@ def prediction(testing_car_df, iteration):
                 exit()
 
 
+# main function where the whole program gets executed
 def main():
     # reads the data from a csv file
     car_df = csv_to_dataFrame()
@@ -555,6 +540,11 @@ def main():
     print('Testing data size:', len(testing_car_df), 'images')
     print('Training data size:', len(training_car_df), 'images')
 
+    # write out training_car_df and teseting_car_df to a csv file
+    # The results will be used for deep learning custom model as well
+    csv_output(training_car_df, 'training_car.csv')
+    csv_output(testing_car_df, 'testing_car.csv')
+
     iteration_list = trainer.get_iterations(project_id)
 
     if len(iteration_list) == 0:
@@ -565,12 +555,12 @@ def main():
         iteration = iteration_list[0]
 
     prediction(testing_car_df, iteration)
-
     print("\nFinish!!")
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
