@@ -1,7 +1,7 @@
 '''
 INSTRUCTION:
 Before you run the script, please follow the steps below before starting.
-    1. Please set the correct local csv file addresses below
+    1. Please set the correct local csv file path below
         The two csv files needed here are product of process_data.py
 
     2. Please adjust threshold in constant below
@@ -11,17 +11,20 @@ Before you run the script, please follow the steps below before starting.
 import pandas as pd
 from azure.cognitiveservices.vision.customvision.training import training_api
 
-# project_id = "ac40ffed-201d-4040-b25d-a543801f7634"
-# training_key = "b1beee07349649138fa1512fc196593a"
+# Provide appropriate information
 project_id = "8d05ada4-02ee-42f6-9784-9c6aa3457f9d"
 training_key = "2fb2e54d14fc4c4e8fb264338277c250"
 trainer = training_api.TrainingApi(training_key)
 
-# set the local csv file location here
-testing_df_location = r"/Users/kokonu/PycharmProjects/deepLearningResearch/testing_car.csv"
-prediction_result_df_location = r"/Users/kokonu/PycharmProjects/deepLearningResearch/prediction_result.csv"
+# Set the local csv file location here
+testing_car_df_path = r"/Users/Koshin/PycharmProjects\deep_learning\testing_car.csv"
+prediction_result_df_path = r"/Users/Koshin/PycharmProjects\deep_learning\prediction_result.csv"
 
+# Decide the threshold percentage - default 75%
 CONST_THRESHOLD = 75
+
+### In case you are analyzing custom model, please provide appropriate path to custom_model_result.csv
+custom_model_result_df_location = r"/Users/Koshin/PycharmProjects\deep_learning\bumper_damage_result.csv"
 
 
 def csv_to_dataFrame(local_csv_location):
@@ -36,8 +39,8 @@ def csv_to_dataFrame(local_csv_location):
 
 def analyze_two_excel_sheets():
 
-    testing_car_df = csv_to_dataFrame(testing_df_location)
-    prediction_result_df = csv_to_dataFrame(prediction_result_df_location)
+    testing_car_df = csv_to_dataFrame(testing_car_df_path)
+    prediction_result_df = csv_to_dataFrame(prediction_result_df_path)
 
     classifier_list = list(testing_car_df.columns.values)[3:16]
 
@@ -94,7 +97,6 @@ def analyze_two_excel_sheets():
         five_selection_classifier(testing_car_df, prediction_result_df, severity, 'ExtremeDamageSeverity',
                                   'HighDamageSeverity', 'ModerateDamageSeverity', 'LowDamageSeverity',
                                   'NoDamageSeverity', 4, 3, 2, 1, 0, i)
-
 
     # print(testing_car_df[glass_damage], testing_car_df[water_damage])
 
@@ -293,7 +295,8 @@ def get_performance(classifier_list):
 
     # try catch here in case there is no iteration
     try:
-        iteration_performance = trainer.get_iteration_performance(project_id, iteration_list[0].id, threshold=0.75)
+        iteration_performance = trainer.get_iteration_performance(project_id, iteration_list[0].id,
+                                                                  threshold=CONST_THRESHOLD * 0.01)
 
     except IndexError:
         print('There is no iteration available. Please create an iteration before running this script')
@@ -303,7 +306,7 @@ def get_performance(classifier_list):
     recall_dict = dict()
 
     for performance in iteration_performance.per_tag_performance:
-        print(performance)
+        # print(performance)
         precision_dict[performance.name] = performance.precision
         recall_dict[performance.name] = performance.recall
 
@@ -318,10 +321,83 @@ def get_performance(classifier_list):
     return precision_list, recall_list
 
 
+def analyze_two_excel_sheets_custom_model():
+
+    classifier = 'BumperDamage'
+
+    testing_car_df = csv_to_dataFrame(testing_car_df_path)
+    prediction_result_df = csv_to_dataFrame(custom_model_result_df_location)
+
+    # drop unnecessary columns
+    testing_car_df = testing_car_df.drop(columns=list(testing_car_df.columns.values)[1:3])
+
+    # apply true if correct prediction selected, false if not selected
+    for i in range(len(testing_car_df)):
+        yes_no_classifier_editor(testing_car_df, prediction_result_df, classifier, i)
+
+    classifier_TP_score = 0
+
+    # get accuracy
+    for i in range(len(prediction_result_df)):
+
+        if prediction_result_df.iloc[i][classifier] is True:
+            classifier_TP_score += 1
+
+    accuracy = classifier_TP_score/len(testing_car_df)
+
+    accuracy_list = ['ACCURACY_RESULT', accuracy]
+
+    column_list = ['ImageFilename', classifier]
+
+    # Convert the list of tag info to one row of dataFrame
+    one_row_df = pd.DataFrame(data=[accuracy_list], columns=column_list)
+
+    prediction_result_df = prediction_result_df.append(one_row_df, ignore_index=True)
+
+    while True:
+        try:
+            prediction_result_df.to_csv('custom_model_bumper_damage_result.csv', sep=',', index=False)
+            print('Successfully Written to a CSV file!')
+            break
+
+        except PermissionError:
+            print("Encountered Permission Error: please take an appropriate action.")
+            print("\nEnter 'yes' to proceed or enter anything else to exit the program")
+            answer = input()
+            answer = answer.lower()
+
+            if answer[0] != 'y':
+                print('Ok, goodbye')
+                exit()
+
+
+def yes_no_classifier_editor(testing_car_df, prediction_result_df, classifier, i):
+
+    if prediction_result_df.iloc[i][classifier] == 'yes' and \
+            testing_car_df.iloc[i][classifier] == 'yes'\
+            or prediction_result_df.iloc[i][classifier] == 'no' and \
+            testing_car_df.iloc[i][classifier] == 'no':
+        prediction_result_df.iloc[i, prediction_result_df.columns.get_loc(classifier)] = True
+    else:
+        prediction_result_df.iloc[i, prediction_result_df.columns.get_loc(classifier)] = False
+
+
+
 def main():
+    print('Please type \'custom_vision\' or \'custom_model\' to output result.')
 
-    analyze_two_excel_sheets()
+    user_response = input()
 
+    while user_response != 'custom_vision' and user_response != 'custom_model':
+        print('Please type \'custom_vision\' or \'custom_model\' to output result.')
+        user_response = input()
+
+    if user_response == 'custom_vision':
+        ### This is to analyze Custom Vision Services
+        analyze_two_excel_sheets()
+    else:
+        ### To analyze custom model
+        analyze_two_excel_sheets_custom_model()
 
 
 if __name__ == "__main__":
