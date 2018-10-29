@@ -1,0 +1,145 @@
+ImageFilename,OriginalSet,OriginalFilename,GlassDamage,WaterDamage,BumperDamage,RolledOver,SideDoorDamage,SlidOffRoad,Location,Time,Weather,RoadCondition,Bumps&Dings,EngineDamage,Severity,Notes
+car-accident-00097.jpg,test,no_damage_0.jpg,no,no,no,no,no,no,rural,day,clear,dry,no,no,0,
+car-accident-00629.png,training,car-accident-00629.png,yes,no,no,no,no,no,rural,day,clear,dry,yes,no,2,
+car-accident-00215.jpeg,training,extreme_damage_97.jpg,yes,no,no,yes,yes,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture 
+car-accident-00109.jpg,test,no_damage_12.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,more than one car shown in picture
+car-accident-00078.jpg,test,low_damage_1.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00407.jpg,training,moderate_damage_54.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,no,2,more than one car shown in picture | classified the silver vehicle on right
+car-accident-00355.jpg,training,moderate_damage_2.jpg,no,no,yes,no,yes,no,suburban,day,clear,dry,yes,no,2,
+car-accident-00303.jpg,training,high_damage_19.jpg,yes,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,3,
+car-accident-00468.jpeg,training,low_damage_23.jpg,no,no,yes,no,no,no,suburban,day,clear,snowy,yes,no,1,
+car-accident-00412.jpg,training,moderate_damage_59.jpg,no,no,yes,no,yes,no,rural,day,clear,dry,yes,no,2,more then one car shown in picture | classified the blue vehicle in middle
+car-accident-00711.jpg,training,car-accident-00711.jpg,yes,no,yes,no,yes,no,suburban,night,rainy,wet,yes,yes,4,
+car-accident-00047.jpg,test,moderate_damage_0.jpg,no,no,no,no,no,yes,rural,day,clear,dry,yes,no,2,more than one car shown in picture
+car-accident-00012.jpg,test,extreme_damage_12.jpg,no,no,yes,yes,no,yes,rural,day,clear,dry,yes,yes,4,"Glass damage not very visible in most prominent car windows, even though front glass is clearly crushed by car's weight"
+car-accident-00576.jpg,training,no_damage_68.jpg,no,no,no,no,no,no,rural,day,clear,dry,no,no,0,
+car-accident-00203.JPG,training,extreme_damage_85.jpg,yes,no,no,yes,yes,no,rural,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00678.jpg,training,car-accident-00678.jpg,no,no,no,no,no,no,rural,night,clear,dry,no,no,0,
+car-accident-00074.jpg,test,moderate_damage_27.jpg,no,no,no,no,no,yes,rural,day,rainy,wet,no,no,1,
+car-accident-00140.jpg,training,extreme_damage_22.jpg,no,no,yes,yes,no,yes,rural,day,clear,dry,yes,no,4,more than one car shown in picture 
+car-accident-00706.jpg,training,car-accident-00706.jpg,no,no,yes,no,no,no,rural,day,rainy,wet,yes,no,2,
+car-accident-00053.jpg,test,moderate_damage_6.jpg,yes,no,no,no,yes,no,suburban,day,snowy,wet,no,no,3,more than one car shown in picture
+car-accident-00196.jpg,training,extreme_damage_78.jpg,yes,no,no,yes,yes,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00592.jpg,training,car-accident-00592.jpg,no,yes,no,no,no,no,rural,day,rainy,wet,no,no,2,Half of the vehicle is under the water 
+car-accident-00641.png,training,car-accident-00641.png,yes,no,no,no,no,no,suburban,day,rainy,wet,no,no,1,
+car-accident-00149.JPG,training,extreme_damage_31.jpg,yes,no,no,yes,no,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00220.jpg,training,extreme_damage_102.jpg,yes,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,4,
+car-accident-00126.jpg,training,extreme_damage_8.jpg,yes,no,yes,yes,yes,yes,urban,day,clear,dry,yes,yes,4,
+car-accident-00197.jpg,training,extreme_damage_79.jpg,yes,no,no,yes,no,yes,rural,day,snowy,snowy,yes,no,4,
+car-accident-00682.jpg,training,car-accident-00682.jpg,no,yes,no,no,no,no,suburban,day,rainy,wet,no,yes,3,Half of the vehicle is under the water 
+car-accident-00081.jpg,test,low_damage_4.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00255.jpg,training,extreme_damage_138.jpg,yes,no,yes,no,yes,no,urban,day,rainy,wet,yes,no,4,
+car-accident-00671.jpg,training,car-accident-00671.jpg,no,no,yes,no,no,no,rural,night,clear,dry,yes,no,1,
+car-accident-00664.jpg,training,car-accident-00664.jpg,no,no,yes,no,no,no,suburban,night,clear,dry,yes,yes,3,
+car-accident-00315.jpg,training,high_damage_31.jpg,yes,no,no,no,no,yes,rural,day,clear,dry,yes,no,3,
+car-accident-00428.png,training,moderate_damage_75.jpg,no,no,no,no,no,yes,rural,day,clear,wet,no,no,2,more than one car shown in picture
+car-accident-00591.jpg,training,car-accident-00591.jpg,no,yes,no,no,no,no,rural,day,clear,wet,no,yes,3,entire vehicle is under the water
+car-accident-00161.jpg,training,extreme_damage_43.jpg,yes,no,yes,yes,yes,yes,rural,day,clear,dry,yes,yes,4,
+car-accident-00266.jpg,training,extreme_damage_149.jpg,yes,no,yes,no,yes,no,rural,day,clear,dry,yes,yes,4,"¬†the same photo as ""car-accident-00248"""
+car-accident-00616.png,training,car-accident-00616.png,yes,no,no,no,no,no,suburban,day,clear,dry,no,no,1,
+car-accident-00365.jpg,training,moderate_damage_12.jpg,no,no,yes,no,no,yes,suburban,day,snowy,snowy,yes,yes,2,more than one car shown in picture
+car-accident-00318.jpg,training,high_damage_34.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,3,more than one car shown in picture
+car-accident-00520.jpeg,training,no_damage_12.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,more than one car shown in picture 
+car-accident-00298.jpg,training,high_damage_14.jpg,yes,no,yes,no,no,no,rural,day,rainy,wet,yes,yes,3,
+car-accident-00559.jpeg,training,no_damage_51.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,low quality photo
+car-accident-00527.jpg,training,no_damage_19.jpg,no,no,no,no,no,no,urban,day,clear,dry,no,no,0,
+car-accident-00264.jpg,training,extreme_damage_147.jpg,yes,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,4,
+car-accident-00581.jpg,training,no_damage_73.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,more than one car shown in picture
+car-accident-00676.jpg,training,car-accident-00676.jpg,no,no,no,no,no,no,suburban,night,clear,dry,no,no,0,
+car-accident-00243.jpg,training,extreme_damage_126.jpg,yes,no,yes,no,yes,no,rural,day,clear,dry,yes,yes,4,more than one car shown in picture 
+car-accident-00482.jpg,training,low_damage_37.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00574.jpg,training,no_damage_66.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00071.JPG,test,moderate_damage_24.JPG,no,no,no,no,no,yes,rural,day,clear,wet,no,no,1,
+car-accident-00184.jpg,training,extreme_damage_66.jpg,yes,no,yes,yes,yes,yes,suburban,day,clear,dry,yes,no,4,
+car-accident-00263.jpg,training,extreme_damage_146.jpg,yes,no,no,no,yes,no,suburban,day,clear,dry,yes,yes,4,more than one car shown in picture
+car-accident-00498.jpg,training,low_damage_53.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00171.jpg,training,extreme_damage_53.jpg,yes,no,no,yes,yes,yes,rural,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00342.jpg,training,high_damage_58.jpg,no,no,yes,no,yes,yes,rural,day,clear,wet,yes,no,3,
+car-accident-00064.jpeg,test,moderate_damage_17.jpeg,no,no,no,no,yes,no,suburban,night,clear,dry,yes,no,2,
+car-accident-00036.jpg,test,high_damage_10.jpg,no,no,yes,no,no,no,urban,day,clear,dry,yes,yes,3,more than one car shown in picture
+car-accident-00288.jpg,training,high_damage_4.jpg,yes,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,3,
+car-accident-00252.jpg,training,extreme_damage_135.jpg,yes,no,yes,no,yes,no,rural,day,clear,dry,yes,yes,4,more than one car shown in picture | classified the orange sports car 
+car-accident-00653.jpg,training,car-accident-00653.jpg,yes,no,yes,no,no,no,suburban,night,clear,dry,yes,no,3,
+car-accident-00519.jpg,training,no_damage_11.jpg,no,no,no,no,no,no,urban,day,clear,dry,no,no,0,
+car-accident-00667.jpg,training,car-accident-00667.jpg,yes,no,no,no,yes,yes,rural,night,clear,snowy,yes,no,4,
+car-accident-00456.jpg,training,low_damage_11.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00501.jpg,training,low_damage_56.jpg,no,no,no,no,no,no,rural,day,clear,dry,yes,no,1,
+car-accident-00417.jpg,training,moderate_damage_64.jpg,no,no,no,no,no,yes,rural,day,rainy,snowy,no,no,2,"snow on ground, not on roads"
+car-accident-00536.jpg,training,no_damage_28.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00369.jpg,training,moderate_damage_16.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,2,"the same photo as ""car-accident-00356"" "
+car-accident-00059.jpg,test,moderate_damage_12.jpg,no,no,yes,no,no,no,urban,day,clear,dry,yes,no,2,
+car-accident-00003.jpeg,test,extreme_damage_2.jpeg,yes,no,no,yes,no,yes,rural,day,clear,dry,yes,no,4,
+car-accident-00019.jpg,test,extreme_damage_19.jpg,no,no,yes,no,no,no,urban,day,clear,dry,yes,yes,4,
+car-accident-00030.jpg,test,high_damage_4.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,3,more than one car shown in picture
+car-accident-00517.jpeg,training,no_damage_9.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00267.jpg,training,extreme_damage_150.jpg,yes,no,yes,no,yes,yes,rural,day,clear,wet,yes,yes,4,The vehicle is split into¬†two
+car-accident-00484.jpg,training,low_damage_39.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00492.jpg,training,low_damage_47.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00163.jpg,training,extreme_damage_45.jpg,yes,no,yes,yes,yes,no,rural,day,clear,dry,yes,no,4,
+car-accident-00466.jpg,training,low_damage_21.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00403.jpg,training,moderate_damage_50.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,2,more than one car shown in picture
+car-accident-00175.jpeg,training,extreme_damage_57.jpg,yes,no,yes,yes,yes,yes,rural,day,clear,dry,yes,yes,4,
+car-accident-00050.jpg,test,moderate_damage_3.jpg,no,no,yes,no,no,no,rural,day,snowy,snowy,yes,yes,3,more than one car shown in picture
+car-accident-00546.jpg,training,no_damage_38.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00435.jpg,training,moderate_damage_82.jpg,no,no,no,no,no,yes,rural,day,snowy,snowy,no,no,2,
+car-accident-00270.jpg,training,extreme_damage_153.jpg,no,no,yes,no,no,no,suburban,day,rainy,wet,yes,no,3,more than one car shown in picture
+car-accident-00014.jpg,test,extreme_damage_14.jpg,yes,no,no,yes,yes,yes,rural,day,clear,dry,yes,no,4,
+car-accident-00566.jpg,training,no_damage_58.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,more than one car shown in picture
+car-accident-00447.jpg,training,low_damage_2.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,more than one car shown in picture | classified the van on right
+car-accident-00167.jpeg,training,extreme_damage_49.jpg,yes,no,no,yes,yes,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture | low quality photo 
+car-accident-00221.jpg,training,extreme_damage_103.jpg,yes,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,4,more than one car shown in picture¬†| classified the red pickup truck 
+car-accident-00147.jpg,training,extreme_damage_29.jpg,yes,no,no,yes,yes,no,suburban,day,clear,dry,yes,no,4,
+car-accident-00643.png,training,car-accident-00643.png,yes,no,no,no,no,no,suburban,day,clear,dry,no,no,1,
+car-accident-00453.jpg,training,low_damage_8.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00204.jpg,training,extreme_damage_86.jpg,no,no,no,yes,no,yes,rural,day,snowy,snowy,no,no,4,
+car-accident-00283.jpg,training,extreme_damage_166.jpg,yes,no,yes,no,yes,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00415.jpg,training,moderate_damage_62.jpg,no,no,yes,no,yes,no,urban,day,clear,dry,yes,no,2,more than one car shown in picture | classified the red vehicle on right
+car-accident-00473.jpeg,training,low_damage_28.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,no,1,
+car-accident-00427.jpg,training,moderate_damage_74.jpg,no,no,no,no,no,yes,rural,day,snowy,snowy,no,no,2,
+car-accident-00685.jpg,training,car-accident-00685.jpg,no,yes,no,no,no,no,suburban,day,clear,wet,no,yes,3,Half of the vehicle is under the water 
+car-accident-00164.jpg,training,extreme_damage_46.jpg,no,no,yes,yes,no,no,rural,day,clear,dry,yes,yes,4,
+car-accident-00257.jpg,training,extreme_damage_140.jpg,yes,no,yes,no,no,no,rural,day,clear,wet,yes,yes,4,more than one car shown in picture¬†| the photo was taken at a junkyard  
+car-accident-00393.jpg,training,moderate_damage_40.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,no,2,more than one car shown in picture | classifeid the vehicle on right 
+car-accident-00001.jpg,test,extreme_damage_0.jpg,yes,no,yes,no,yes,yes,rural,day,clear,dry,yes,yes,4,
+car-accident-00002.jpeg,test,extreme_damage_1.jpeg,yes,no,no,yes,yes,no,suburban,day,clear,dry,yes,no,4,more than one car shown in picture
+car-accident-00411.jpg,training,moderate_damage_58.jpg,yes,no,yes,no,yes,no,suburban,day,clear,dry,yes,no,2,
+car-accident-00286.jpg,training,high_damage_2.jpg,no,no,yes,no,no,no,suburban,night,clear,dry,yes,yes,3,
+car-accident-00419.png,training,moderate_damage_66.jpg,no,no,no,no,no,yes,rural,day,snowy,snowy,no,no,2,
+car-accident-00112.jpg,test,no_damage_15.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,more than one car shown in picture
+car-accident-00690.jpg,training,car-accident-00690.jpg,no,yes,no,no,no,no,suburban,day,clear,wet,no,yes,4,entire vehicle is under the water
+car-accident-00357.jpg,training,moderate_damage_4.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,2,more than one car shown in picture | classified the black behicle in the back 
+car-accident-00421.jpg,training,moderate_damage_68.jpg,no,no,no,no,no,yes,rural,day,snowy,snowy,no,no,2,
+car-accident-00389.jpeg,training,moderate_damage_36.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,2,more than one car shown in picture | classified the sedan on left
+car-accident-00229.jpg,training,extreme_damage_112.jpg,yes,no,yes,no,yes,no,rural,day,clear,wet,yes,yes,4,one car and one motorcycle in picture 
+car-accident-00251.jpg,training,extreme_damage_134.jpg,yes,no,yes,no,yes,no,urban,day,clear,dry,yes,yes,4,"more than one car shown in picture | The same photo as ""car-accident-00250""¬†"
+car-accident-00114.jpg,test,no_damage_17.jpg,no,no,no,no,no,no,rural,day,clear,dry,no,no,0,more than one car shown in picture
+car-accident-00360.jpg,training,moderate_damage_7.jpg,no,no,yes,no,no,no,urban,day,rainy,wet,yes,no,2,more than one car shown in picture
+car-accident-00247.jpg,training,extreme_damage_130.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,yes,4,more than one car shown in picture
+car-accident-00356.jpg,training,moderate_damage_3.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,2,"the same photo as ""car-accident-00361"" "
+car-accident-00494.jpg,training,low_damage_49.jpg,no,no,yes,no,no,no,suburban,day,clear,snowy,yes,no,1,More than one car shown in picture | classified the white outlander on left
+car-accident-00622.png,training,car-accident-00622.png,yes,no,no,no,no,no,suburban,day,clear,dry,no,no,1,
+car-accident-00086.jpg,test,low_damage_9.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00707.jpg,training,car-accident-00707.jpg,no,no,yes,no,no,no,suburban,day,rainy,wet,yes,yes,3,
+car-accident-00379.jpg,training,moderate_damage_26.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,yes,2,"more than one car shown in picture | classified the blue vehicle on left | the same photo as ""car-accident-381"" "
+car-accident-00584.jpg,training,no_damage_76.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00506.jpg,training,low_damage_61.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,more than one car shown in picture | classfied the picture on right
+car-accident-00603.jpg,training,car-accident-00603.jpg,yes,no,no,no,no,no,suburban,day,clear,dry,no,no,1,
+car-accident-00377.jpg,training,moderate_damage_24.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,2,
+car-accident-00635.png,training,car-accident-00635.png,yes,no,no,no,no,no,urban,day,clear,dry,no,no,1,
+car-accident-00031.jpg,test,high_damage_5.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,3,more than one car shown in picture
+car-accident-00381.jpg,training,moderate_damage_28.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,yes,2,"more than one car shown in picture | classified the blue vehicle on left | the same photo as ""car-accident-379"" "
+car-accident-00088.jpg,test,low_damage_11.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,
+car-accident-00127.jpg,training,extreme_damage_9.jpg,yes,no,yes,no,no,no,rural,night,clear,dry,yes,yes,4,
+car-accident-00361.jpeg,training,moderate_damage_8.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,yes,2,"the same photo as ""car-accident-00356"" | low quality photo"
+car-accident-00323.jpg,training,high_damage_39.jpg,yes,no,yes,no,no,yes,rural,day,clear,dry,yes,no,3,
+car-accident-00702.jpg,training,car-accident-00702.jpg,no,no,yes,no,no,no,rural,day,rainy,wet,yes,yes,3,
+car-accident-00533.jpeg,training,no_damage_25.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00530.jpg,training,no_damage_22.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00294.jpg,training,high_damage_10.jpg,yes,no,yes,no,yes,yes,suburban,day,clear,dry,yes,yes,3,"snow on ground, not on roads"
+car-accident-00301.jpg,training,high_damage_17.jpg,no,no,yes,no,no,no,rural,day,clear,dry,yes,no,3,more than one car shown in picture
+car-accident-00660.jpg,training,car-accident-00660.jpg,yes,no,no,no,yes,yes,rural,night,rainy,wet,yes,no,3,
+car-accident-00455.jpg,training,low_damage_10.jpg,no,no,yes,no,no,no,suburban,day,clear,dry,yes,no,1,"The same photo as ""car-accident-00471"""
+car-accident-00026.jpg,test,high_damage_0.jpg,yes,no,yes,no,no,no,rural,day,clear,dry,yes,yes,3,"Two cars in one picture, body of car not shown"
+car-accident-00649.jpeg,training,car-accident-00649.jpeg,yes,no,no,no,no,no,suburban,day,clear,dry,no,no,1,
+car-accident-00583.jpg,training,no_damage_75.jpg,no,no,no,no,no,no,suburban,day,clear,dry,no,no,0,
+car-accident-00073.jpg,test,moderate_damage_26.jpg,no,no,no,no,no,yes,rural,day,clear,dry,no,no,1,
