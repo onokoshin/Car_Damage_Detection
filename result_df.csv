@@ -1,146 +1,146 @@
 ImageFilename,GlassDamage,WaterDamage,BumperDamage,RolledOver,SideDoorDamage,SlidOffRoad,Location,Time,Weather,RoadCondition,Bumps&Dings,EngineDamage,Severity,Notes
-car-accident-00097.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00629.png,False,True,True,True,True,True,False,True,True,True,True,True,False,
-car-accident-00215.jpeg,False,True,False,False,False,True,True,True,True,True,True,True,True,more than one car shown in picture 
-car-accident-00109.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00078.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
-car-accident-00407.jpg,True,True,True,True,True,True,False,True,True,True,True,True,False,more than one car shown in picture | classified the silver vehicle on right
-car-accident-00355.jpg,True,True,True,True,False,True,True,True,True,True,True,True,False,
-car-accident-00303.jpg,False,True,True,True,True,True,True,True,True,True,True,False,True,
-car-accident-00468.jpeg,True,True,True,True,True,True,True,True,True,False,True,True,True,
-car-accident-00412.jpg,True,True,False,True,False,True,True,True,True,True,True,True,True,more then one car shown in picture | classified the blue vehicle in middle
-car-accident-00711.jpg,False,True,True,True,False,True,True,False,False,False,True,True,True,
-car-accident-00047.jpg,True,True,True,True,True,False,True,True,True,True,False,True,False,more than one car shown in picture
-car-accident-00012.jpg,False,True,True,True,False,True,True,True,True,True,True,True,True,"Glass damage not very visible in most prominent car windows, even though front glass is clearly crushed by car's weight"
-car-accident-00576.jpg,True,True,False,True,True,True,True,True,True,True,False,True,False,
-car-accident-00203.JPG,True,True,False,True,False,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00678.jpg,True,True,True,True,True,True,False,False,True,True,True,True,True,
-car-accident-00074.jpg,True,True,True,True,True,False,False,True,False,False,True,True,False,
-car-accident-00140.jpg,False,True,True,True,False,True,True,True,True,True,True,True,True,more than one car shown in picture 
-car-accident-00706.jpg,True,True,True,True,True,True,True,True,False,True,True,False,False,
-car-accident-00053.jpg,False,True,True,True,False,True,False,True,False,False,False,True,False,more than one car shown in picture
-car-accident-00196.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00592.jpg,True,True,True,True,True,True,False,True,False,True,True,False,False,Half of the vehicle is under the water 
-car-accident-00641.png,True,True,True,True,True,True,True,True,False,False,False,True,False,
-car-accident-00149.JPG,False,True,False,True,False,True,False,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00220.jpg,True,True,True,True,False,True,False,True,True,True,True,True,True,
-car-accident-00126.jpg,True,True,True,True,True,False,False,True,True,True,True,False,True,
-car-accident-00197.jpg,False,True,True,False,True,True,True,True,True,True,False,True,True,
-car-accident-00682.jpg,True,False,True,True,True,True,True,True,False,False,True,False,False,Half of the vehicle is under the water 
-car-accident-00081.jpg,True,True,True,True,True,True,False,True,True,True,True,True,False,
-car-accident-00255.jpg,False,True,False,True,False,True,False,True,False,False,False,True,False,
-car-accident-00671.jpg,True,True,True,True,True,True,False,False,True,True,True,True,True,
-car-accident-00664.jpg,True,True,True,True,True,True,False,False,True,True,True,False,False,
-car-accident-00315.jpg,False,True,True,True,True,False,False,True,True,True,False,True,False,
-car-accident-00428.png,True,True,True,True,True,True,True,True,True,False,False,True,False,more than one car shown in picture
-car-accident-00591.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,entire vehicle is under the water
-car-accident-00161.jpg,True,True,True,True,True,False,True,True,True,True,True,True,True,
-car-accident-00266.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,"¬†the same photo as ""car-accident-00248"""
-car-accident-00616.png,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00365.jpg,True,True,False,True,True,False,True,True,True,True,False,False,False,more than one car shown in picture
-car-accident-00318.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,more than one car shown in picture
-car-accident-00520.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture 
-car-accident-00298.jpg,True,True,True,True,True,True,True,True,False,False,True,True,False,
-car-accident-00559.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,low quality photo
-car-accident-00527.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00264.jpg,False,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00581.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00676.jpg,True,True,True,True,True,True,True,False,True,True,True,True,True,
-car-accident-00243.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture 
-car-accident-00482.jpg,True,True,False,True,True,True,True,True,True,True,True,True,False,
-car-accident-00574.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00071.JPG,True,True,True,True,True,False,True,True,True,True,False,True,False,
-car-accident-00184.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00263.jpg,False,True,False,True,False,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00498.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00171.jpg,False,True,False,True,False,False,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00342.jpg,True,True,False,True,False,True,True,True,True,False,True,True,True,
-car-accident-00064.jpeg,False,True,False,True,True,True,False,False,True,True,True,True,False,
-car-accident-00036.jpg,True,True,False,True,True,True,False,True,True,True,True,False,False,more than one car shown in picture
-car-accident-00288.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00252.jpg,True,True,True,False,True,True,True,True,True,True,True,True,True,more than one car shown in picture | classified the orange sports car 
-car-accident-00653.jpg,False,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00519.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00667.jpg,False,True,True,True,False,False,True,False,False,False,False,True,False,
-car-accident-00456.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
-car-accident-00501.jpg,True,True,True,True,True,True,False,True,True,True,False,True,True,
-car-accident-00417.jpg,True,True,True,True,True,True,True,True,False,True,True,True,True,"snow on ground, not on roads"
-car-accident-00536.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00369.jpg,True,True,True,True,True,True,True,True,True,True,True,False,False,"the same photo as ""car-accident-00356"" "
-car-accident-00059.jpg,True,True,True,True,True,True,False,True,True,True,True,True,False,
-car-accident-00003.jpeg,False,True,True,True,True,False,True,True,True,True,False,True,True,
-car-accident-00019.jpg,False,True,True,True,False,True,False,True,True,True,True,True,True,
-car-accident-00030.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,more than one car shown in picture
-car-accident-00517.jpeg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00267.jpg,False,True,True,True,False,False,True,True,True,False,True,False,True,The vehicle is split into¬†two
-car-accident-00484.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
-car-accident-00492.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
-car-accident-00163.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00466.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00403.jpg,True,True,True,True,True,False,True,True,True,True,False,True,False,more than one car shown in picture
-car-accident-00175.jpeg,True,True,True,True,False,True,True,True,True,True,True,False,True,
-car-accident-00050.jpg,True,True,True,True,True,True,False,True,False,False,True,False,False,more than one car shown in picture
-car-accident-00546.jpg,True,True,True,True,True,True,True,True,True,True,False,True,False,
-car-accident-00435.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00270.jpg,True,True,True,True,True,True,False,True,False,False,True,False,False,more than one car shown in picture
-car-accident-00014.jpg,True,True,True,False,False,False,True,True,True,True,True,False,True,
-car-accident-00566.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00447.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture | classified the van on right
-car-accident-00167.jpeg,True,True,False,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture | low quality photo 
-car-accident-00221.jpg,False,True,True,True,True,True,True,True,True,True,True,False,True,more than one car shown in picture¬†| classified the red pickup truck 
-car-accident-00147.jpg,False,True,False,True,False,True,False,True,True,True,True,True,True,
-car-accident-00643.png,True,True,True,True,True,True,True,True,True,True,False,True,False,
-car-accident-00453.jpg,True,True,False,True,True,True,True,True,True,True,False,True,True,
-car-accident-00204.jpg,True,True,True,False,True,True,True,True,False,False,False,True,True,
-car-accident-00283.jpg,False,True,True,True,True,True,False,True,True,True,True,False,True,more than one car shown in picture
-car-accident-00415.jpg,True,True,True,True,False,True,False,True,True,False,True,True,False,more than one car shown in picture | classified the red vehicle on right
-car-accident-00473.jpeg,True,True,False,True,True,True,False,True,True,True,False,True,True,
-car-accident-00427.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00685.jpg,True,True,True,True,True,True,False,True,True,True,True,False,True,Half of the vehicle is under the water 
-car-accident-00164.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,
-car-accident-00257.jpg,False,True,True,True,True,True,False,True,True,False,True,True,True,more than one car shown in picture¬†| the photo was taken at a junkyard  
-car-accident-00393.jpg,True,True,True,True,True,True,False,True,True,True,True,True,False,more than one car shown in picture | classifeid the vehicle on right 
-car-accident-00001.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00002.jpeg,False,True,False,False,False,True,False,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00411.jpg,False,True,True,True,True,True,False,True,True,True,True,True,False,
-car-accident-00286.jpg,True,True,True,True,True,True,True,False,True,True,True,False,True,
-car-accident-00419.png,True,True,False,True,True,True,True,True,True,True,False,True,False,
-car-accident-00112.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00690.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,entire vehicle is under the water
-car-accident-00357.jpg,True,True,False,True,True,True,True,True,True,True,True,False,False,more than one car shown in picture | classified the black behicle in the back 
-car-accident-00421.jpg,True,True,True,True,True,True,True,True,True,True,False,True,False,
-car-accident-00389.jpeg,True,True,True,True,True,True,True,True,True,True,True,False,False,more than one car shown in picture | classified the sedan on left
-car-accident-00229.jpg,False,True,True,True,True,True,True,True,True,False,True,False,True,one car and one motorcycle in picture 
-car-accident-00251.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,"more than one car shown in picture | The same photo as ""car-accident-00250""¬†"
-car-accident-00114.jpg,True,True,False,True,True,True,False,True,True,True,False,True,False,more than one car shown in picture
-car-accident-00360.jpg,True,True,True,True,True,True,False,True,False,False,True,True,False,more than one car shown in picture
-car-accident-00247.jpg,False,True,True,True,False,True,True,True,True,True,True,True,True,more than one car shown in picture
-car-accident-00356.jpg,True,True,True,True,True,True,True,True,True,True,True,False,False,"the same photo as ""car-accident-00361"" "
-car-accident-00494.jpg,True,True,False,True,True,False,False,True,False,True,False,True,False,More than one car shown in picture | classified the white outlander on left
-car-accident-00622.png,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00086.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00707.jpg,False,True,True,True,True,True,True,True,False,False,True,True,True,
-car-accident-00379.jpg,True,True,True,True,True,True,False,True,True,True,True,False,False,"more than one car shown in picture | classified the blue vehicle on left | the same photo as ""car-accident-381"" "
-car-accident-00584.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00506.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture | classfied the picture on right
-car-accident-00603.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00377.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
-car-accident-00635.png,False,True,True,True,True,True,False,True,True,False,True,True,True,
-car-accident-00031.jpg,True,True,False,True,True,True,False,True,True,False,False,False,False,more than one car shown in picture
-car-accident-00381.jpg,True,True,True,True,True,True,False,True,True,True,True,False,False,"more than one car shown in picture | classified the blue vehicle on left | the same photo as ""car-accident-379"" "
 car-accident-00088.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00127.jpg,True,True,True,True,True,True,False,False,True,True,True,True,True,
-car-accident-00361.jpeg,True,True,True,True,True,True,True,True,True,True,True,False,False,"the same photo as ""car-accident-00356"" | low quality photo"
-car-accident-00323.jpg,False,True,False,True,True,False,True,True,True,True,False,True,False,
-car-accident-00702.jpg,True,True,True,True,True,True,True,True,False,False,True,True,True,
-car-accident-00533.jpeg,True,True,True,True,True,True,False,True,True,True,True,True,True,
-car-accident-00530.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00294.jpg,False,True,False,True,False,False,True,True,False,False,True,False,True,"snow on ground, not on roads"
-car-accident-00301.jpg,False,True,True,True,False,False,True,True,True,True,True,False,False,more than one car shown in picture
-car-accident-00660.jpg,False,True,False,True,False,False,False,True,True,True,True,False,True,
-car-accident-00455.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,"The same photo as ""car-accident-00471"""
-car-accident-00026.jpg,False,True,True,True,False,True,True,True,True,True,True,True,False,"Two cars in one picture, body of car not shown"
+car-accident-00597.jpg,True,False,True,True,True,True,False,False,False,True,True,True,False,Half of the vehicle is under the water 
+car-accident-00456.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00688.jpg,True,True,True,True,True,True,False,True,True,True,True,False,True,Half of the vehicle is under the water 
+car-accident-00205.jpg,True,True,True,True,False,True,False,True,True,True,True,True,True,
+car-accident-00678.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00645.png,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00716.jpg,False,True,False,True,True,True,True,False,False,True,True,False,False,
+car-accident-00096.jpg,True,True,False,True,True,True,True,True,True,True,True,True,False,
+car-accident-00366.jpg,True,True,True,True,True,True,True,True,False,False,True,True,False,more than one car shown in picture
+car-accident-00085.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00502.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00471.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,"The same photo as ""car-accident-00455"""
+car-accident-00091.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00360.jpg,True,True,True,True,True,True,False,True,False,False,True,False,False,more than one car shown in picture
+car-accident-00617.png,True,True,True,True,True,True,True,True,True,True,False,True,True,
+car-accident-00646.png,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00190.jpg,False,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00518.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00176.jpg,False,True,True,True,False,True,True,True,True,True,True,True,True,
+car-accident-00092.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00097.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00338.jpg,True,False,True,True,True,True,True,True,True,True,True,True,False,part of the vehicle is under the water 
+car-accident-00562.jpg,True,True,True,True,True,True,True,True,True,True,False,True,True,
+car-accident-00294.jpg,False,True,False,True,False,False,False,True,False,False,True,False,True,"snow on ground, not on roads"
+car-accident-00706.jpg,True,True,True,True,True,True,True,True,True,True,True,False,False,
+car-accident-00458.jpg,True,True,False,True,True,True,True,True,True,True,False,True,True,more than one car shown in picture | classified the vehicle on right 
+car-accident-00517.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00134.jpg,False,True,True,True,False,True,True,True,True,True,True,False,False,more than one car shown in picture 
+car-accident-00144.jpg,True,True,False,False,True,True,True,True,True,True,True,False,True,more than one car shown in picture 
+car-accident-00158.jpg,True,True,True,True,True,True,False,True,False,False,True,False,True,Another object in front of vehicle 
+car-accident-00697.jpg,True,False,True,True,True,True,False,True,True,False,True,False,True,Half of the vehicle is under the water 
+car-accident-00220.jpg,True,True,True,True,False,True,False,True,True,True,True,True,True,
+car-accident-00070.jpg,True,True,True,True,True,False,True,True,False,True,True,True,False,
+car-accident-00420.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,False,
+car-accident-00207.jpg,True,True,False,True,False,True,True,True,True,True,True,False,True,
+car-accident-00002.jpeg,False,True,False,False,False,True,True,True,True,True,True,True,True,more than one car shown in picture
+car-accident-00234.jpg,True,True,False,True,True,True,False,True,False,False,True,True,False,
+car-accident-00683.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,Half of the vehicle is under the water 
+car-accident-00541.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
+car-accident-00166.jpeg,False,True,False,False,False,True,False,True,True,True,True,True,True,more than one car shown in picture | low quality photo 
+car-accident-00108.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00586.jpg,True,False,True,True,True,True,True,True,True,True,True,True,False,Half of the vehicle is under the water 
 car-accident-00649.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00048.jpg,True,True,False,True,True,False,False,True,True,True,True,True,False,more than one car shown in picture
+car-accident-00153.jpg,True,True,False,True,False,False,True,True,True,True,False,True,True,more than one car shown in picture | classified the green Honda CRV
+car-accident-00594.jpg,True,True,True,True,True,True,False,True,True,True,False,True,False,rear window is smashed 
+car-accident-00064.jpeg,False,True,False,True,True,True,False,False,True,True,True,True,False,
+car-accident-00004.jpg,False,True,True,True,False,True,True,False,True,False,True,True,True,
+car-accident-00663.jpg,True,True,True,True,True,True,False,False,True,True,True,True,True,
+car-accident-00654.jpg,True,True,True,False,True,True,True,False,True,False,True,True,True,
+car-accident-00637.png,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00105.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,more than one car shown in picture
+car-accident-00431.JPG,True,True,True,True,True,False,True,True,False,False,True,True,True,
+car-accident-00006.jpg,False,True,True,False,True,True,True,True,True,True,True,False,True,more than one car shown in picture
+car-accident-00333.jpeg,True,True,True,True,True,True,True,True,True,False,True,True,False,more than one car shown in picture
+car-accident-00142.jpeg,False,True,True,False,False,True,False,True,True,True,True,True,True,more than one car shown in pictureÃ‚Â¬Ã¢â‚¬Â  | low quality photo
+car-accident-00314.jpg,False,True,True,True,True,True,True,True,True,True,True,True,False,more than one car shown in picture
+car-accident-00239.jpg,False,True,True,True,True,False,False,True,True,True,True,False,False,more than one car shown in picture 
+car-accident-00005.jpg,True,True,True,True,False,True,True,True,True,True,True,False,True,more than one car shown in picture
+car-accident-00114.jpg,True,True,False,True,True,True,False,True,True,True,False,True,False,more than one car shown in picture
+car-accident-00284.png,False,True,True,True,True,True,False,True,True,True,True,False,True,
+car-accident-00349.png,False,True,True,True,False,False,True,True,True,True,True,True,False,
+car-accident-00568.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00644.png,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00168.jpg,True,True,True,True,True,True,False,True,True,True,True,False,True,more than one car shown in picture | classified the white Toyota SiennaÃ‚Â¬Ã¢â‚¬Â (minivan)
+car-accident-00010.jpg,False,True,False,True,False,True,True,True,True,True,True,False,True,
+car-accident-00392.jpg,True,True,False,True,False,True,False,True,True,True,False,True,False,more than one car shown in picture
+car-accident-00570.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00100.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00055.jpeg,True,True,True,True,False,True,True,True,True,True,True,True,False,
+car-accident-00133.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,"it's the same photo as ""car-accident-177"""
+car-accident-00577.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00022.jpg,True,True,False,True,False,False,False,True,False,False,True,False,False,
+car-accident-00255.jpg,False,True,False,True,False,True,False,True,False,False,False,True,False,
+car-accident-00087.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00667.jpg,False,True,True,True,False,False,True,False,False,False,True,True,False,
+car-accident-00262.jpg,False,True,True,True,False,True,True,True,True,True,True,True,False,more than one car shown in picture | classified the black vehicle on right 
+car-accident-00162.jpg,False,True,False,False,True,True,True,False,True,True,False,False,True,
+car-accident-00391.jpg,True,True,True,True,True,True,False,True,True,True,True,False,True,more than one car shown in picture | classified the sedan of left
+car-accident-00439.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00659.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00482.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
+car-accident-00556.JPG,True,True,False,True,True,True,False,True,True,True,False,True,False,more than one car shown in picture 
+car-accident-00470.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00393.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,more than one car shown in picture | classifeid the vehicle on right 
+car-accident-00698.jpg,True,False,True,True,True,True,True,True,True,False,True,True,False,part of the vehicle is under the water 
+car-accident-00681.jpg,True,False,True,True,True,True,True,True,False,False,True,True,True,Half of the vehicle is under the water 
+car-accident-00208.gif,False,True,False,True,True,True,True,True,True,False,True,True,True,low quality photo
+car-accident-00101.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00451.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00682.jpg,True,False,True,True,True,True,False,True,False,False,True,False,False,Half of the vehicle is under the water 
+car-accident-00553.jpg,True,True,True,True,True,True,False,True,True,True,False,True,True,more than one car shown in picture 
+car-accident-00537.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00696.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,part of the vehicle is under the water 
+car-accident-00124.jpg,True,True,False,True,False,False,False,True,False,False,True,False,True,
+car-accident-00390.jpg,True,True,True,True,True,True,False,True,True,False,True,False,False,more than one car shown in picture | classfied the sedan on left
+car-accident-00573.jpg,True,True,True,True,True,True,False,True,True,True,False,True,True,more than one car shown in picture
+car-accident-00326.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,more than one car shown in picture
+car-accident-00336.jpg,True,True,True,True,True,True,True,True,True,False,True,False,True,
+car-accident-00519.jpg,True,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00277.jpg,True,True,True,True,False,True,True,True,True,True,True,True,True,
+car-accident-00712.jpg,True,True,True,True,True,True,True,True,False,False,True,False,False,
+car-accident-00027.jpg,True,True,True,True,True,False,False,True,True,True,True,True,False,Wheels damaged 
+car-accident-00008.jpg,True,True,True,False,True,True,True,True,True,False,True,False,True,more than one car shown in picture
+car-accident-00467.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00423.jpeg,True,True,False,True,True,True,True,True,False,False,False,True,False,
+car-accident-00283.jpg,False,True,True,True,True,True,False,True,True,True,True,False,True,more than one car shown in picture
+car-accident-00421.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00163.jpg,True,True,True,True,True,True,True,True,True,True,True,False,True,
+car-accident-00345.jpg,True,True,True,True,True,True,True,True,True,True,False,True,True,
+car-accident-00650.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00419.png,True,True,False,True,True,True,True,True,True,True,False,True,False,
+car-accident-00337.jpg,False,True,True,True,True,True,True,True,True,True,True,False,True,
+car-accident-00544.jpg,True,True,True,True,True,True,True,True,True,True,False,True,True,more than one car shown in picture
+car-accident-00408.jpg,False,True,False,True,False,True,True,True,True,True,True,True,False,
+car-accident-00299.jpg,True,True,True,True,True,False,True,True,True,True,True,False,True,
+car-accident-00195.jpg,False,True,True,False,True,False,True,True,False,False,False,False,True,The vehicle is on fire
+car-accident-00039.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,
+car-accident-00658.jpeg,False,True,True,True,True,True,True,False,False,True,False,False,True,
+car-accident-00640.png,False,True,True,True,True,True,True,True,False,False,False,True,True,
+car-accident-00606.png,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00115.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
+car-accident-00310.jpg,True,True,True,True,True,True,True,True,True,True,True,True,False,more than one car shown in picture | classfied the white sedan on left
+car-accident-00014.jpg,False,True,True,False,False,True,True,True,True,True,True,False,True,
+car-accident-00308.jpg,False,True,False,True,True,True,True,True,True,True,True,False,False,more than one car shown in picture
 car-accident-00583.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
-car-accident-00073.jpg,True,True,False,True,True,False,True,True,True,True,False,True,False,
-ACCURACY_RESULT,0.7569444444444444,0.9930555555555556,0.7777777777777778,0.9583333333333334,0.8125,0.8680555555555556,0.6805555555555556,0.9375,0.8680555555555556,0.8333333333333334,0.8194444444444444,0.7638888888888888,0.6111111111111112,
+car-accident-00143.jpeg,False,True,True,True,False,True,True,True,True,True,True,True,True,low quality photo 
+car-accident-00379.jpg,True,True,True,True,True,True,False,True,True,True,True,False,True,"more than one car shown in picture | classified the blue vehicle on left | the same photo as ""car-accident-381"" "
+car-accident-00123.jpg,True,True,True,True,False,True,False,True,True,True,True,False,True,
+car-accident-00443.jpg,True,True,True,True,True,False,True,True,True,True,True,True,True,
+car-accident-00630.png,False,True,True,True,True,True,False,True,True,True,True,True,True,
+car-accident-00558.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00442.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00084.jpg,True,True,False,True,True,True,True,True,True,True,True,True,True,
+car-accident-00167.jpeg,True,True,False,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture | low quality photo 
+car-accident-00569.jpeg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00668.jpeg,True,True,False,True,False,True,False,False,False,False,True,True,False,
+car-accident-00579.JPG,True,True,True,True,True,True,True,True,True,True,True,True,True,more than one car shown in picture
+car-accident-00383.jpg,True,True,True,True,True,True,False,True,True,True,True,True,False,more than one car shown in picture | classified the white vehicle on right
+car-accident-00563.jpg,True,True,True,True,True,True,True,True,True,False,True,True,True,
+car-accident-00695.png,True,False,True,True,True,True,False,True,True,False,False,True,False,part of the vehicle is under the water 
+car-accident-00089.jpg,True,True,True,True,True,True,True,True,True,True,True,True,True,
+car-accident-00036.jpg,True,True,False,True,True,True,False,True,True,True,True,False,False,more than one car shown in picture
+ACCURACY_RESULT,0.7847222222222222,0.9444444444444444,0.7569444444444444,0.9305555555555556,0.8125,0.9027777777777778,0.6458333333333334,0.9305555555555556,0.8541666666666666,0.8055555555555556,0.8611111111111112,0.7430555555555556,0.6805555555555556,

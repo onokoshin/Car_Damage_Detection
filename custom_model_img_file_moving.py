@@ -5,11 +5,11 @@ import sklearn.utils as sku
 
 ### Provide training_csv and testing_csv file directories
 ### These two training_csv and testing csv should be the output of process_data.py
-training_csv_src = r"C:/Users/koshin.ono/PycharmProjects/data_cleaning/training_car.csv"
-testing_csv_src = r"C:/Users/koshin.ono/PycharmProjects/data_cleaning/testing_car.csv"
+training_csv_src = r"/Users/Koshin/PycharmProjects\deep_learning\training_car.csv"
+testing_csv_src = r"/Users/Koshin/PycharmProjects/deep_learning/testing_car.csv"
 
 ### Provide the directory to where all the images of car-accident are located
-src_folder_path = r"C:\Users\koshin.ono\Avanade\AI Incubator - FNOL\Image_Classificaction\Images"
+src_folder_path = r"/Users/Koshin/Pictures/car_accident_imgs"
 
 
 
